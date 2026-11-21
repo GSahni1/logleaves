@@ -1,0 +1,20 @@
+# Build output
+build/
+.gradle/
+*.jar
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+# Secrets and local state
+*.env
+.env*
+*.pem
+*.key
+vault-pass*
+# Claude files
+CLAUDE.md
+LEARNING.md
+PROGRESS.md 
+# Ansible
+*.retry
